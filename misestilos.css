@@ -26,5 +26,15 @@ h1
 
 h2
 {
+  font: bold 18px verdana, sans-serif;
+}
+
+h3
+{
+  font: bold 16px verdana, sans-serif;
+}
+
+h4
+{
   font: bold 14px verdana, sans-serif;
 }
