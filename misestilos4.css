@@ -19,19 +19,18 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
 #cabecera
 {
  float: left;
- width: 100%;
+ width: 98%;
+ padding: 1%;
  background: #fffbb9;
- border: 1% solid #999999;
- padding: 2%;
-}
+ }
 
 #menu
 {
  float: left;
- width: 100%;
- background: #CCCCCC;
+ width: 98%;
  padding: 1%;
-  }
+ background: #CCCCCC;
+ }
 
 #menu li
 {
@@ -59,14 +58,35 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup
 
 #pie
 {
- clear:both;
  float: left;
  width: 100%;
- text-align: left;
- padding: 1%;
+ text-align: center;
  border-top: 1px solid #999999;
  }
- p 
+
+article
+{
+ float: left;
+ width: 100%;
+ background: #FFFBCC;
+ border: 1px solid #999999;
+ padding: 1%;
+ margin-bottom: 1%;
+ }
+
+article footer
+{
+ text-align: center;
+ border-top: 1px solid #999999;
+ }
+ 
+img
+{
+ max-width: 100%;
+ border: 0;
+ } 
+ 
+p 
 {
  font-size: 20px 
 }
